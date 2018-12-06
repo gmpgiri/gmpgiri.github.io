@@ -1,0 +1,41 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+    background-image: url(header.jpg); 
+    background-size: cover;
+    
+} 
+.container {
+    display: flex;
+      justify-content:center;
+        align-items:center;
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+}
+.container:hover {
+    width: 110%;
+}
+#text > h1 {
+   text-align: center;
+    font-size: 2.8em;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#button {
+    margin-top: 150px;
+}
+.btn-danger {
+    background-color: orange;
+    color: black;
+}
+.btn-danger:hover {
+    background-color: darkorange;
+    color:black;
+}
